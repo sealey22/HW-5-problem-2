@@ -40,6 +40,10 @@ int main() {
       cout << "The sum of the valid data is: " << sumData << endl;
       cout << "The number of valid data points is: " << counter << endl;
       cout << "The average of the valid data is: " << (static_cast<double>(sumData) / counter) << endl;
+      
+      //Notes
+  //use static_cast inside output statement instead of writting a whole new line to find the average from sumDate/counter
+  //static_cast allows compiler to do division with an answer of type float or double 
   
   return 0;
   
