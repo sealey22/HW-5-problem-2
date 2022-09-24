@@ -37,7 +37,9 @@ int main() {
       }
 
       //display to user 
-      cout << "The sum of the valid data is: " << sumData
+      cout << "The sum of the valid data is: " << sumData << endl;
+      cout << "The number of valid data points is: " << counter << endl;
+      cout << "The average of the valid data is: " << ((sumData) / counter) << endl;
   
   return 0;
   
